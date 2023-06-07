@@ -17,7 +17,7 @@ function Card() {
     return (
         <main className="" >
             <section className="flex justify-center gap-8 mt-40">
-                <img className="mask mask-squircle h-44" src={DK} />
+                <img loading="lazy" className="mask mask-squircle h-44" src={DK} />
                 <div className="flex flex-col gap-2 mt-6">
                     <h1 className="text-5xl text-accent font-bold">Fullstack Developer</h1>
                     <p className="w-104 text-base text-base-content">Hello, I'm Dmitry. Detail-oriented problem solver with UX/UI skills, passionate about learning new technologies.</p>
@@ -26,20 +26,20 @@ function Card() {
             <section className="">
 
                 <div className="flex gap-0 justify-center mt-8">
-                    <img className="h-20" src={git} />
-                    <img className="h-20" src={html5} />
-                    <img className="h-20" src={css3} />
-                    <img className="h-20" src={tailwind} />
-                    <img className="h-20" src={js} />
-                    <img className="h-20" src={typescript} />
+                    <img loading="lazy" className="h-20" src={git} />
+                    <img loading="lazy" className="h-20" src={html5} />
+                    <img loading="lazy" className="h-20" src={css3} />
+                    <img loading="lazy" className="h-20" src={tailwind} />
+                    <img loading="lazy" className="h-20" src={js} />
+                    <img loading="lazy" className="h-20" src={typescript} />
                 </div>
                 <div className="flex gap-0 justify-center">
-                    <img className="h-20" src={reactjs} />
-                    <img className="h-20" src={nextjs} />
-                    <img className="h-20" src={nodejs} />
-                    <img className="h-20" src={mongodb} />
-                    <img className="h-20" src={postgresql} />
-                    <img className="h-20" src={firebase} />
+                    <img loading="lazy" className="h-20" src={reactjs} />
+                    <img loading="lazy" className="h-20" src={nextjs} />
+                    <img loading="lazy" className="h-20" src={nodejs} />
+                    <img loading="lazy" className="h-20" src={mongodb} />
+                    <img loading="lazy" className="h-20" src={postgresql} />
+                    <img loading="lazy" className="h-20" src={firebase} />
                 </div>
             </section>
         </main >

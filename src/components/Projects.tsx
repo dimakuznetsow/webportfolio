@@ -19,7 +19,7 @@ function Projects() {
             <section className="mx-80">
                 <div className="flex mt-8">
                     <div className="flex gap-8">
-                        <img src={visited} alt="visited" className="h-48" />
+                        <img loading="lazy" src={visited} alt="visited" className="h-48" />
                         <div>
                             <div>
                                 <h1 className="font-bold text-xl">Visited</h1>
@@ -68,11 +68,11 @@ function Projects() {
                             </li>
                         </ul>
                     </div>
-                    <img src={converto} alt="visited" className="h-48" />
+                    <img loading="lazy" src={converto} alt="visited" className="h-48" />
                 </div>
                 <div className="flex mt-20">
                     <div className="flex gap-8">
-                        <img src={aleph} alt="visited" className="h-48" />
+                        <img loading="lazy" src={aleph} alt="visited" className="h-48" />
                         <div>
                             <div>
                                 <h1 className="font-bold text-xl">a-leph</h1>
