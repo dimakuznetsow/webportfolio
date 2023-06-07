@@ -15,7 +15,7 @@ import { SiPostgresql, SiMongodb, SiReact, SiExpress, SiJavascript, SiNextdotjs 
 function Projects() {
     return (
         <div id="myProjects">
-            <h1 className="mx-80 mt-44 text-2xl font-bold text-primary">Projects</h1>
+            <h1 className="mx-80 mt-52 text-2xl font-bold text-primary">Projects</h1>
             <section className="mx-80">
                 <div className="flex mt-8">
                     <div className="flex gap-8">

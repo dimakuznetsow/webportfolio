@@ -15,7 +15,7 @@ import firebase from "../images/firebase.png"
 
 function Card() {
     return (
-        <main className="" >
+        <main className="">
             <section className="flex justify-center gap-8 mt-40">
                 <img loading="lazy" className="mask mask-squircle h-44" src={DK} />
                 <div className="flex flex-col gap-2 mt-6">
