@@ -6,7 +6,7 @@ import { FiMail } from "react-icons/fi"
 function Contacts() {
     return (
 
-        <div id="myContacts">
+        <div id="myContacts" className="">
             <h1 className="mx-80 pt-48 text-2xl font-bold text-primary">Contacts</h1>
             <div className="mx-80 pb-80">
                 <p className="text-2xl font-bold mt-4">Get in Touch. Connect, Collaborate, Code.</p>

@@ -14,7 +14,7 @@ function Navbar() {
                         </Link>
                     </li>
                     <li>
-                        <Link to="myContacts" spy={true} smooth={true} offset={100}>
+                        <Link to="myContacts" spy={true} smooth={true} offset={70}>
                             Contacts
                         </Link>
                     </li>
