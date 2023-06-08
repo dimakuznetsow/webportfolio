@@ -15,34 +15,68 @@ import firebase from "../images/firebase.png"
 
 function Card() {
     return (
-        <main className="">
-            <section className="flex justify-center gap-8 2xl:gap-16 mt-40">
-                <img loading="lazy" className="mask mask-squircle h-44" src={DK} />
-                <div className="flex flex-col gap-2 mt-6">
-                    <h1 className="text-5xl text-accent font-bold">Fullstack Developer</h1>
-                    <p className="w-104 text-base text-base-content">Hello, I'm Dmitry. Detail-oriented problem solver with UX/UI skills, passionate about learning new technologies.</p>
-                </div>
-            </section>
-            <section className="">
+        <>
+            <main className="block sm:hidden">
+                <section className="flex-col justify-center mt-20 mx-4">
+                    <div className="flex justify-start ">
+                        <img loading="lazy" className="mask mask-squircle h-56 -z-10" src={DK} />
+                    </div>
+                    <div className="flex flex-col justify-center gap-2 mt-6">
+                        <h1 className="text-3xl text-accent font-bold">Fullstack Developer</h1>
+                        <p className="text-base text-base-content">Hello, I'm Dmitry. Detail-oriented problem solver with UX/UI skills, passionate about learning new technologies.</p>
+                    </div>
+                </section>
+                <section className="">
 
-                <div className="flex gap-0 2xl:gap-4 justify-center mt-8">
-                    <img loading="lazy" className="h-20" src={git} />
-                    <img loading="lazy" className="h-20" src={html5} />
-                    <img loading="lazy" className="h-20" src={css3} />
-                    <img loading="lazy" className="h-20" src={tailwind} />
-                    <img loading="lazy" className="h-20" src={js} />
-                    <img loading="lazy" className="h-20" src={typescript} />
-                </div>
-                <div className="flex gap-0 2xl:gap-4 justify-center">
-                    <img loading="lazy" className="h-20" src={reactjs} />
-                    <img loading="lazy" className="h-20" src={nextjs} />
-                    <img loading="lazy" className="h-20" src={nodejs} />
-                    <img loading="lazy" className="h-20" src={mongodb} />
-                    <img loading="lazy" className="h-20" src={postgresql} />
-                    <img loading="lazy" className="h-20" src={firebase} />
-                </div>
-            </section>
-        </main >
+                    <div className="flex justify-start">
+                        <img loading="lazy" className="h-20" src={git} />
+                        <img loading="lazy" className="h-20" src={html5} />
+                        <img loading="lazy" className="h-20" src={css3} />
+                        <img loading="lazy" className="h-20" src={tailwind} />
+                    </div>
+                    <div className="flex  justify-end">
+                        <img loading="lazy" className="h-20" src={js} />
+                        <img loading="lazy" className="h-20" src={typescript} />
+                        <img loading="lazy" className="h-20" src={reactjs} />
+                        <img loading="lazy" className="h-20" src={nextjs} />
+                    </div>
+                    <div className="flex justify-start">
+                        <img loading="lazy" className="h-20" src={nodejs} />
+                        <img loading="lazy" className="h-20" src={mongodb} />
+                        <img loading="lazy" className="h-20" src={postgresql} />
+                        <img loading="lazy" className="h-20" src={firebase} />
+                    </div>
+                </section>
+            </main >
+            <main className="hidden sm:block">
+                <section className="flex justify-center gap-8 2xl:gap-16 mt-40">
+                    <img loading="lazy" className="mask mask-squircle h-44" src={DK} />
+                    <div className="flex flex-col gap-2 mt-6">
+                        <h1 className="text-5xl text-accent font-bold">Fullstack Developer</h1>
+                        <p className="w-104 text-base text-base-content">Hello, I'm Dmitry. Detail-oriented problem solver with UX/UI skills, passionate about learning new technologies.</p>
+                    </div>
+                </section>
+                <section className="">
+
+                    <div className="flex gap-0 2xl:gap-4 justify-center mt-8">
+                        <img loading="lazy" className="h-20" src={git} />
+                        <img loading="lazy" className="h-20" src={html5} />
+                        <img loading="lazy" className="h-20" src={css3} />
+                        <img loading="lazy" className="h-20" src={tailwind} />
+                        <img loading="lazy" className="h-20" src={js} />
+                        <img loading="lazy" className="h-20" src={typescript} />
+                    </div>
+                    <div className="flex gap-0 2xl:gap-4 justify-center">
+                        <img loading="lazy" className="h-20" src={reactjs} />
+                        <img loading="lazy" className="h-20" src={nextjs} />
+                        <img loading="lazy" className="h-20" src={nodejs} />
+                        <img loading="lazy" className="h-20" src={mongodb} />
+                        <img loading="lazy" className="h-20" src={postgresql} />
+                        <img loading="lazy" className="h-20" src={firebase} />
+                    </div>
+                </section>
+            </main >
+        </>
     )
 }
 
