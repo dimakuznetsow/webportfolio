@@ -8,8 +8,8 @@ function Contacts() {
     return (
         <>
             <div id="myContacts" className="hidden sm:block">
-                <section className="mx-4 lg:mx-80 flex-col justify-center pb-80 pt-64">
-                    <div className="flex justify-center -ml-24 2xl:-ml-40 ">
+                <section className="mx-4 xl:mx-80 flex-col sm:justify-start md:justify-center pb-80 pt-64">
+                    <div className="flex  xmd:ml-24 lg:ml-24 xlg:ml-36 xxlg:ml-44  xl:-ml-10 2xl:ml-0 3xl:ml-0 3xxl:ml-56  4xl:ml-72 5xl:ml-96 6xl:ml-104 7xl:ml-136 8xl:ml-216 9xl:ml-296">
                         <div className="flex gap-8 2xl:gap-16">
                             <div className="flex-col -mt-6">
                                 <h1 className="text-2xl font-bold text-primary mb-6">Contacts</h1>
