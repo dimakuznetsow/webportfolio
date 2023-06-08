@@ -16,7 +16,7 @@ import firebase from "../images/firebase.png"
 function Card() {
     return (
         <main className="">
-            <section className="flex justify-center gap-8 mt-40">
+            <section className="flex justify-center gap-8 2xl:gap-16 mt-40">
                 <img loading="lazy" className="mask mask-squircle h-44" src={DK} />
                 <div className="flex flex-col gap-2 mt-6">
                     <h1 className="text-5xl text-accent font-bold">Fullstack Developer</h1>
@@ -25,7 +25,7 @@ function Card() {
             </section>
             <section className="">
 
-                <div className="flex gap-0 justify-center mt-8">
+                <div className="flex gap-0 2xl:gap-4 justify-center mt-8">
                     <img loading="lazy" className="h-20" src={git} />
                     <img loading="lazy" className="h-20" src={html5} />
                     <img loading="lazy" className="h-20" src={css3} />
@@ -33,7 +33,7 @@ function Card() {
                     <img loading="lazy" className="h-20" src={js} />
                     <img loading="lazy" className="h-20" src={typescript} />
                 </div>
-                <div className="flex gap-0 justify-center">
+                <div className="flex gap-0 2xl:gap-4 justify-center">
                     <img loading="lazy" className="h-20" src={reactjs} />
                     <img loading="lazy" className="h-20" src={nextjs} />
                     <img loading="lazy" className="h-20" src={nodejs} />

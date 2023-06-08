@@ -3,33 +3,58 @@ import { FiMail } from "react-icons/fi"
 
 
 
+
 function Contacts() {
     return (
+        <div id="myContacts" className="">
+            <section className="mx-4 lg:mx-80 flex-col justify-center pb-80 pt-64">
+                <div className="flex justify-center -ml-40 ">
+                    <div className="flex gap-8 2xl:gap-16">
+                        <div className="flex-col -mt-6">
+                            <h1 className="text-2xl font-bold text-primary mb-6">Contacts</h1>
+                            <p className="text-2xl font-bold">Get in Touch. Connect, Collaborate, Code.</p>
+                            <ul className="flex mt-20 gap-16 items-center">
+                                <li className="bg-base-200  p-4 rounded-full">
+                                    <a className="flex items-center gap-2" href="https:github.com/dimakuznetsow" target="_blank">
+                                        <ImGithub size={44} />
+                                    </a>
+                                </li>
+                                <li className="bg-base-200 p-4 rounded-full">
+                                    <a className="flex items-center gap-2" href="https:www.linkedin.com/in/dimakuznetsow/" target="_blank">
+                                        <ImLinkedin size={44} />
+                                    </a>
+                                </li>
+                                <li className="bg-base-200 p-4 rounded-full">
+                                    <a className="flex items-center gap-2" href="mailto:dimakuznetsow@gmail.com" >
+                                        <FiMail size={44} />
+                                    </a>
+                                </li>
 
-        <div id="myContacts" className="mt-16">
-            <h1 className="mx-80 pt-48 text-2xl font-bold text-primary">Contacts</h1>
-            <div className="mx-80 pb-80">
-                <p className="text-2xl font-bold mt-4">Get in Touch. Connect, Collaborate, Code.</p>
-                <ul className="flex justify-start mt-20 gap-16 items-center">
-                    <li className="bg-base-200  p-4 rounded-full">
-                        <a className="flex items-center gap-2" href="https://github.com/dimakuznetsow" target="_blank">
-                            <ImGithub size={44} />
-                        </a>
-                    </li>
-                    <li className="bg-base-200 p-4 rounded-full">
-                        <a className="flex items-center gap-2" href="https://www.linkedin.com/in/dimakuznetsow/" target="_blank">
-                            <ImLinkedin size={44} />
-                        </a>
-                    </li>
-                    <li className="bg-base-200 p-4 rounded-full">
-                        <a className="flex items-center gap-2" href="mailto:dimakuznetsow@gmail.com" >
-                            <FiMail size={44} />
-                        </a>
-                    </li>
+                            </ul>
+                        </div>
+                        <div className="mt-8">
+                            <ul className="flex mt-20 gap-16 items-center">
+                                <li className="">
 
-                </ul>
-            </div>
-        </div>
+                                </li>
+                                <li className="">
+
+                                </li>
+                                <li className="">
+
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section >
+
+        </div >
     )
 }
 

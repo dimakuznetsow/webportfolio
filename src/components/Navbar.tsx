@@ -9,12 +9,12 @@ function Navbar() {
             <div className="flex-none">
                 <ul className="menu menu-horizontal px-1 text-base-content">
                     <li>
-                        <Link to="myProjects" spy={true} smooth={true} offset={-70}>
+                        <Link to="myProjects" spy={true} smooth={true} offset={-90}>
                             Projects
                         </Link>
                     </li>
                     <li>
-                        <Link to="myContacts" spy={true} smooth={true} offset={70}>
+                        <Link to="myContacts" spy={true} smooth={true} offset={120}>
                             Contacts
                         </Link>
                     </li>
