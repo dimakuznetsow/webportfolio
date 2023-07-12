@@ -16,8 +16,11 @@ function Navbar() {
                     <div className="flex-1">
                         <a
                             onClick={() => {
+                                const drawer = document.getElementById(
+                                    "my-drawer-3"
+                                ) as HTMLInputElement;
                                 if (window.innerWidth <= 640) {
-                                    document.getElementById("my-drawer-3").checked = false;
+                                    drawer.checked = false;
                                 }
                                 scroll.scrollToTop()
                             }}
