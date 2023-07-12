@@ -14,7 +14,14 @@ function Navbar() {
                         </label>
                     </div>
                     <div className="flex-1">
-                        <a onClick={scroll.scrollToTop} className="btn no-animation bg-transparent hover:bg-transparent border-none normal-case text-xl text-base-content">Dmitry Kuznetsov</a>
+                        <a
+                            onClick={() => {
+                                if (window.innerWidth <= 640) {
+                                    document.getElementById("my-drawer-3").checked = false;
+                                }
+                                scroll.scrollToTop()
+                            }}
+                            className="btn no-animation bg-transparent hover:bg-transparent border-none normal-case text-xl text-base-content">Dmitry Kuznetsov</a>
                     </div>
                     <div className="flex-none hidden sm:block">
                         <ul className="menu menu-horizontal">
