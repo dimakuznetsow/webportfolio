@@ -1,9 +1,10 @@
 import visited from "../images/Visited.png"
 import converto from "../images/converto.png"
 import aleph from "../images/aleph.png"
+import ekach from "../images/Ekach.png"
 import { ImGithub } from "react-icons/im"
 import { TbWorldWww } from "react-icons/tb"
-import { SiPostgresql, SiMongodb, SiReact, SiExpress, SiJavascript, SiNextdotjs } from "react-icons/si"
+import { SiPostgresql, SiMongodb, SiReact, SiExpress, SiJavascript, SiNextdotjs, SiMysql } from "react-icons/si"
 
 
 function Projects() {
@@ -57,7 +58,7 @@ function Projects() {
                                 </div>
                                 <ul className="flex justify-start gap-8 mt-8 text-lg font-bold">
                                     <li>
-                                        <a className="btn flex items-center gap-2" href="https://chrome.google.com/webstore/detail/converto/ojlkpjnnpcmdpdifocpdbgoaaeofbghd?hl" target="_blank">
+                                        <a className="btn flex flex-nowrap items-center gap-2" href="https://chrome.google.com/webstore/detail/converto/ojlkpjnnpcmdpdifocpdbgoaaeofbghd?hl" target="_blank">
                                             Demo <TbWorldWww size={20} />
                                         </a>
                                     </li>
@@ -77,7 +78,7 @@ function Projects() {
                             <div className="">
                                 <div>
                                     <h1 className="font-bold text-xl">a-leph</h1>
-                                    <p className="text-sm mt-2 max-w-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero nam quam rerum exercitationem quasi beatae ab repudiandae vel ex neque fugiat odit recusandae pariatur cupiditate a, est ipsum laborum dolores.</p>
+                                    <p className="text-sm mt-2 max-w-sm">Full-stack e-commerce application that incorporates Stripe for seamless payment processing. It offers a user-friendly online shopping experience, allowing customers to browse products, add items to their cart, and securely complete their purchases using Stripe's payment system.</p>
                                     <ul className="flex justify-start gap-6 mt-6 font-semibold">
                                         <li className="flex items-center gap-1">Next <SiNextdotjs size={20} /></li>
                                         <li className="flex items-center gap-1">PostgreSQL <SiPostgresql size={20} /></li>
@@ -85,7 +86,7 @@ function Projects() {
                                 </div>
                                 <ul className="flex justify-start gap-8 mt-8 text-lg font-bold">
                                     <li>
-                                        <a className="btn flex items-center gap-2" href="https://a-leph.vercel.app/" target="_blank">
+                                        <a className="btn flex flex-nowrap items-center gap-2" href="https://a-leph.vercel.app/" target="_blank">
                                             Demo <TbWorldWww size={20} />
                                         </a>
                                     </li>
@@ -96,6 +97,33 @@ function Projects() {
                                     </li>
                                 </ul>
                             </div>
+                        </div>
+                    </div>
+                    <div className="flex justify-center mt-28">
+                        <div className="flex gap-8 2xl:gap-16">
+                            <div>
+                                <div>
+                                    <h1 className="font-bold text-xl">ekach</h1>
+                                    <p className="text-sm mt-2 max-w-sm">Bilingual web app that connects users in need of delivery assistance with helpful volunteers. Whether it's forgotten documents at home or a need to deliver items to another address, our app makes requesting help easy. Simply submit the pickup and destination addresses.</p>
+                                    <ul className="flex justify-start gap-6 mt-6 font-semibold">
+                                        <li className="flex items-center gap-1">Next <SiNextdotjs size={20} /></li>
+                                        <li className="flex items-center gap-1">MySQL <SiMysql size={20} /></li>
+                                    </ul>
+                                </div>
+                                <ul className="flex justify-start gap-8 mt-8 text-lg font-bold">
+                                    <li>
+                                        <a className="btn flex flex-nowrap items-center gap-2" href="https://ekach.vercel.app" target="_blank">
+                                            Demo <TbWorldWww size={20} />
+                                        </a>
+                                    </li>
+                                    <li className="flex items-center gap-2">
+                                        <a className="btn flex items-center gap-2" href="https://github.com/dimakuznetsow/Ekach" target="_blank">
+                                            Code <ImGithub size={20} />
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <img loading="lazy" src={ekach} alt="converto" className="h-48" />
                         </div>
                     </div>
                 </section >
@@ -164,7 +192,7 @@ function Projects() {
                             <div className="mt-6">
                                 <div>
                                     <h1 className="font-bold text-xl">a-leph</h1>
-                                    <p className="text-sm mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum repellendus deserunt veritatis odit, porro tempora quam tempore beatae nostrum molestiae odio vero inventore omnis, voluptatum ipsum id. Repellat, voluptates pariatur.</p>
+                                    <p className="text-sm mt-2">Full-stack e-commerce application that incorporates Stripe for seamless payment processing. It offers a user-friendly online shopping experience, allowing customers to browse products, add items to their cart, and securely complete their purchases using Stripe's payment system.</p>
                                     <ul className="flex justify-start gap-6 mt-4 font-semibold">
                                         <li className="flex items-center gap-1">Next <SiNextdotjs size={20} /></li>
                                         <li className="flex items-center gap-1">PostgreSQL <SiPostgresql size={20} /></li>
@@ -178,6 +206,33 @@ function Projects() {
                                     </li>
                                     <li className="flex items-center gap-2">
                                         <a className="btn flex items-center gap-2" href="https://github.com/dimakuznetsow/Ecommerce" target="_blank">
+                                            Code <ImGithub size={20} />
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="mx-4 mt-10">
+                        <div className="flex-col">
+                            <img loading="lazy" src={ekach} alt="aleph" className="h-48 w-full" />
+                            <div className="mt-6">
+                                <div>
+                                    <h1 className="font-bold text-xl">ekach</h1>
+                                    <p className="text-sm mt-2">Bilingual web app that connects users in need of delivery assistance with helpful volunteers. Whether it's forgotten documents at home or a need to deliver items to another address, our app makes requesting help easy. Simply submit the pickup and destination addresses.</p>
+                                    <ul className="flex justify-start gap-6 mt-4 font-semibold">
+                                        <li className="flex items-center gap-1">Next <SiNextdotjs size={20} /></li>
+                                        <li className="flex items-center gap-1">MySQL <SiMysql size={22} /></li>
+                                    </ul>
+                                </div>
+                                <ul className="flex justify-start gap-4 mt-4 text-lg font-bold">
+                                    <li>
+                                        <a className="btn flex items-center gap-2" href="https://ekach.vercel.app/" target="_blank">
+                                            Demo <TbWorldWww size={20} />
+                                        </a>
+                                    </li>
+                                    <li className="flex items-center gap-2">
+                                        <a className="btn flex items-center gap-2" href="https://github.com/dimakuznetsow/Ekach" target="_blank">
                                             Code <ImGithub size={20} />
                                         </a>
                                     </li>
